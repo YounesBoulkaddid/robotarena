@@ -5,7 +5,7 @@ use Arena\RobotOrder;
 
 class BafisteLaRebelle implements RobotInterface{
 
-    public $x;
+    public $b;
     public $y;
     public $direction;
     public $surrounding;
