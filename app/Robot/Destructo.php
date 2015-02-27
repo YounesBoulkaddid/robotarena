@@ -9,7 +9,7 @@ class Destructo implements RobotInterface{
   public $lastHit; 
 
   public function __construct($name){
-    $this->name = $name;
+    $this->name = $naj me;
   }
  
   public function notifyPosition(\Arena\RobotPosition $position){
