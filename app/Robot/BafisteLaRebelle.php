@@ -15,7 +15,7 @@ class BafisteLaRebelle implements RobotInterface{
     public $flag;
     public $chemin_a_suivre = [
         0 => ["x" => 4, "y" => 4], // LIGNE HORIZONTALE NORD COIN EST
-        1 => ["x" => 5, "y" => 4],
+        1 => ["x" => 6, "y" => 4],
         2 => ["x" => 6, "y" => 4],
         3 => ["x" => 7, "y" => 4],
         4 => ["x" => 8, "y" => 4],
