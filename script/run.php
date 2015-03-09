@@ -16,9 +16,11 @@ while(true){
   echo $i++."\r";
   try{
     $arena->turn();
+    if($arena == NULL){
+    	$arena = $i;
+    }
   }catch(Arena\WinningCondition $wc){
     echo "\n".$wc->getMessage()."\n";
     break;
   }
 }
-ysdfghjqdz<kmlksfwjgfeq<ds
